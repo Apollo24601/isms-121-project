@@ -1,0 +1,248 @@
+/*font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Caprasimo', cursive;*/
+
+:root {
+    --primary-color: #ff8a8a;
+    --secondary-color: #113f67;
+    --tertiary-color: #ffffff;
+    --text-color: #272142;
+    --heading-font-family: "Playfair Display", serif;
+    --default-font-family: "Poppins", sans-serif;
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    color: #ffcbcb;
+  }
+  
+  .logo {
+    max-width: 120px;
+  }
+  
+  .navigation-bar {
+    font-size: 16px !important;
+  }
+  .initials {
+    font-family: "Caprasimo", cursive;
+  }
+  .initials:hover {
+    color: var(--primary-color);
+  }
+  .link-color:hover {
+    color: var(--primary-color);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--heading-font-family);
+    font-weight: bold;
+    color: black;
+  }
+  
+  p {
+    font-family: var(--default-font-family);
+  }
+  
+  .contactBtn {
+    font-family: var(--default-font-family);
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px 30px;
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    border-radius: 4px;
+    line-height: 27px;
+  }
+  
+  .contactBtn:hover {
+    background: #3b6488;
+    color: var(--tertiary-color);
+    box-shadow: var(--box-shadow);
+  }
+  
+  .hero {
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 140px 20px;
+  }
+  
+  .my-img {
+      border-radius: 20px;
+      margin-top: 150px;
+  }
+  
+  h1 {
+    font-size: 96px;
+    line-height: 1.5;
+  }
+  
+  h2 {
+    font-size: 64px;
+  }
+  
+  h4{
+    font-size: 48px;
+  }
+  
+  h5{
+    font-size: 40px;
+    font-family: var(--default-font-family);
+    font-weight: normal;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
+  .hero h2 {
+    font-family: var(--default-font-family);
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: normal;
+    line-height: 2;
+  }
+  
+  .hero p {
+    margin: 0;
+    font-weight: bold;
+    font-size: 36px;
+    color: black;
+  }
+  
+  .learn {
+    font-family: var(--default-font-family);
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 30px;
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    border-radius: 4px;
+    border: 1px solid var(--secondary-color);
+    line-height: 27px;
+  }
+  
+  .project {
+    padding: 120px 60px;
+  }
+  
+  .content-section {
+    padding: 140px 20px;
+    background: var(--tertiary-color);
+  }
+  
+  .content-section h1 {
+    line-height: 80px;
+    font-size: 64px;
+  }
+  
+  .content-section h2 {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: var(--default-font-family);
+  }
+  
+  .content-section p {
+    line-height: 30px;
+    font-weight: normal;
+    font-size: 16px;
+    opacity: 0.7;
+  }
+  
+  .content-section .left,
+  .right {
+    padding: 40px;
+  }
+  
+  .content-section img-fluid {
+    height: auto;
+  }
+  
+  .work h3{
+    font-size: 24px;
+    font-family: var(--default-font-family);
+    line-height: 1.5;
+    margin: 20px 0 0;
+  }
+  .work p{
+    font-size: 14px;
+  }
+  
+  .contact a:hover{
+    color: var(--primary-color);
+  }
+  
+  .skills-icon {
+    display: block;
+    text-align: center;
+    font-size: 60px;
+  }
+  
+  footer .contact-box{
+    background-color: #F9F7FE;
+    padding: 30px 120px;
+    border-radius: 10px;
+  }
+  
+  footer .contact-box p{
+    margin: 0;
+  }
+  
+  footer .email-link{
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 24px;
+  }
+  footer .email-link:hover{
+    color: var(--primary-color);
+  }
+  
+  footer .socials a{
+    margin: 0 20px;
+    color: var(--primary-color);
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 10px 14px;
+    background: rgb(216, 211, 211);
+    transition: all 150ms ease-in-out;
+  }
+  footer .socials a:hover{
+    color: var(--tertiary-color);
+    background: var(--primary-color);
+  }
+  
+  @media (max-width: 900px) {
+    .hero h1 {
+      font-size: 44px;
+    }
+  
+    .project {
+      text-align: center;
+      padding: 0 !important;
+    }
+  
+    .hero h2 {
+      font-size: 24px !important;
+    }
+  
+    h2 {
+      font-size: 44px !important;
+    }
+  
+    .hero {
+      padding: 80px 20px !important;
+    }
+  
+    .content-section {
+      text-align: center;
+      padding: 80px 20px !important;
+    }
+    .content-section h2 {
+      font-size: 18px !important;
+    }
+  
+    .skills-icon{
+      font-size: 40px;
+    }
+  }
